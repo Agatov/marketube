@@ -1,10 +1,10 @@
 .block
   .wrapper
     .left
-      Съемка и продвижение видеороликов в Youtube.
+      Съемка видео роликов по Москве и МО.
       %br
       %small
-        Увеличение продаж путем вывода видео в топ Youtube.
+        Выведение видео ролика в TOP YouTube.
     .right
       +7 (495) 888-88-88
 
@@ -13,15 +13,18 @@
   .wrapper
     .left
       .video
-        %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/JwjkGdQ-F2g', frameborder: 0}
+        %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/AyzOsiwt3PY', frameborder: 0}
 
     .right
       .order-form
 
+        .overlay#top-overlay
+          Спасибо!
+
         .content
           Оставьте заявку и получите бесплатную консультацию
 
-        %form
+        %form#top-form
           %input{type: :text, name: :username, placeholder: 'Ваше имя'}
           %input{type: :text, name: :phone, placeholder: 'Ваш телефон'}
           %input{type: :text, name: :email, placeholder: 'Ваш email'}
@@ -191,15 +194,55 @@
           от 7 000 руб.
 
 
--#%section
+%section
   .title
     Наши результаты
-
-
   .wrapper
     .results
       .result
         .screen.kris
         .about
-          %h2
-            Для Кристины
+          Ролик дизайнера одежды Кристины Бережневой был бережно снят и аккуратно продвинут нами на Youtube
+          по запросу
+          %span.query
+            дизайнер одежды
+      .result
+        .screen.tolk-youtube
+        .about
+          Ролик дизайнера одежды Кристины Бережневой был бережно снят и аккуратно продвинут нами на Youtube
+          по запросу
+          %span.query
+            дизайнер одежды
+      .result
+        .screen.tolk-google
+        .about
+          Ролик дизайнера одежды Кристины Бережневой был бережно снят и аккуратно продвинут нами на Youtube
+          по запросу
+          %span.query
+            дизайнер одежды
+      .result
+        .screen.marant
+        .about
+          Ролик дизайнера одежды Кристины Бережневой был бережно снят и аккуратно продвинут нами на Youtube
+          по запросу
+          %span.query
+            дизайнер одежды
+
+
+%section.big-orange-block
+  .wrapper
+
+    .overlay#bottom-overlay
+      Спасибо за заявку. Мы свяжемся с вами как можно скорее.
+
+    %h1
+      Оставьте заявку на консультацию и получите специальную цену на продвижения в Youtube
+      до конца июля.
+
+    %form.form#bottom-form
+      %input{type: :text, placeholder: 'Ваше имя'}
+      %input{type: :text, placeholder: 'Ваш телефон'}
+      %button#bottom-order-button
+        Оставить заявку
+
+
