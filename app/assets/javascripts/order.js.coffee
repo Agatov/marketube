@@ -31,6 +31,8 @@ $ ->
 
     show_thank_you()
 
+    yaCounter21632101.reachGoal('new_order')
+
     false
 
 
