@@ -1,293 +1,55 @@
-.block
-  .wrapper
-    .left
-      Съемка видеороликов и продвижение в Youtube
-      %br
-      %small
-        Съемка видео роликов по Москве и МО.
-        Выведение видео ролика в TOP YouTube.
-    .right
-      8 (905) 737-69-16
-
-
-#main
-  .wrapper
-    .left
-      .video
-        %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/AyzOsiwt3PY', frameborder: 0}
-
-    .right
-      .order-form
-
-        .overlay#top-overlay
-          Спасибо!
-
-        .content
-          Оставьте заявку и получите бесплатную консультацию и рассчет стоимости
-          ролика его продвижения в Youtube.
-
-        %form#top-form
-          %input{type: :text, name: :username, placeholder: 'Ваше имя'}
-          %input{type: :text, name: :phone, placeholder: 'Ваш телефон'}
-          .submit#submit-order
-            Отправить
-
-
-
-%section
+.wrapper.padding4
   .title
-    Почему с нами работают
-
-    .wrapper
-
-      .pains
-
-        .pain
-          .title
-            100% гарантия
-          .content
-            Вы платите деньги только после того, как увидите готовый ролик!
-
-        .pain
-          .title
-            Мы продумаем за вас ролик на 93%
-          .content
-            Решаем задачи бизнеса, а не просто снимаем видео.
+    Узнайте как реклама на
+    %span.light Youtube
+    может помочь вашему бизнесу!
 
 
-        .pain
-          .title
-            Эксперты в YouTube продвижении!
-          .content
-            45 снятых роликов, 56 позиций в топ youtube.
 
-        .pain
-          .title
-            Расчет стоимости в день обращения!
-          .content
-            Расчет стоимости продвижения в YouTube в день обращения!
+-#.wrapper.padding1
+  .benefits-header
 
-        .pain
-          .title
-            Соблюдение сроков!
-          .content
-            За каждый просроченный день мы выплачиваем Вам штраф.
-
-        .pain
-          .title
-            Адекватная цена!
-          .content
-            У нас не дешевле чем у конкурентов, но и не завышена в 4 раза.
+  .benefits
+    .benefit
+      Вы становитесь владельцем ООО всего за 1 час
+    .benefit
+      100% гарантия чистоты фирмы
+    .benefit
+      Большой опыт. Более 200 проданных компаний
+    .benefit
+      Консультация и помощь при подборе ООО
 
 
-%section
-  .title
-    Мнения экспертов
-  .wrapper
-    .opinions
-      .opinion
-        .whois
-          .name
-            Михаил Дашкиев
-          .position
-            Бизнесмен, бизнес тренер
-            %br
-            Является управляющим партнером компании "Бизнес Молодость",
-            управляющим партнером консалтингового агентства «Mokselle»,
-            компании «Энергосберегающие системы»,  проекта «Турдело».
-
-        .video-block
-          .video
-            %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/3JDZF-nHdlQ', frameborder: 0}
-
-      .opinion
-        .whois
-          .name
-            Дмитрий Губерниев
-          .position
-            Спортивный комментатор.
-            %br
-            Работает на телеканалах «Россия» и «Спорт». Ведет программы «Сборная России» и «Неделя спорта».
-            В 2007 году был удостоен премии ТЭФИ как лучший спортивный телекомментатор.
-
-        .video-block
-          .video
-            %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/j7kxijxrjgw', frameborder: 0}
+.wrapper
+  .phone
+    8 (495) 792 89 59
+    .small
+      Работаем по всей России и СНГ.
 
 
-      .opinion
-        .whois
-          .name
-            Алексей Толкачев
-          .position
-            Инфобизнесмен
-            %br
-            Автор обучающих курсов по созданию собственного бизнеса и работы над собой.
-            Чемпион Мира по парашютно-горнолыжному двоеборью
-
-        .video-block
-          .video
-            %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/81nLU3CAgUk', frameborder: 0}
-
-%section
-  .title
-    Проблемы с которыми сталкиваются люди
-    %br
-    при заказе рекламы на Youtube
+.wrapper
+  .order-button
+    Заказать консультацию
 
 
-  .wrapper
-    .problems
-      .problem
-        .title
-          Проблема предоплаты
-        .content
-          После получения предоплаты с вас начинают вытягивать деньги на непредвиденные расходы.
 
-      .problem
-        .title
-          Проблема гарантии
-        .content
-          Вам не предоставляют никаких гарантий, оправдывая это тем, что результат невозможно предсказать.
+.modal-overlay
+.modal-dialog
+  .header
+    Заказать консультацию
+  .body
+    %form{action: '#'}
+      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+      %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+      %button#send-order
+        Заказать консультацию
 
-      .problem
-        .title
-          Проблема эффективности
-        .content
-          Вам обещают миллионы просмотров на Youtube. Но накрученные просмотры не приносят пользу вашему бизнесу.
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
 
 
-      .problem
-        .title
-          Проблема сроков
-        .content
-          Съемка двухминутного ролика растягивается на полтора месяца по причине непредвиденных проблем.
-
-
-%section
-  .title
-    Наши услуги
-
-  .wrapper
-    .services
-      .service
-        .name
-          Съемка видео-ролика
-        .about
-
-          1. Подбираем подходящую концепцию ролика
-          %br
-          2. Разрабатываем сценарий, согласовываем бюджет.
-          %br
-          3. Снимаем ролик
-        .price
-          от 10 000 руб.
-      .service
-        .name
-          Продвижение видео-ролика в ТОП Youtube
-        .about
-          1. Подбираем ключевые слова
-          %br
-          2. Оформляем и оптимизируем ваш канал на YouTube
-          %br
-          3. Оптимизируем и выводим в TOP YouTube ваше видео
-        .price
-          от 7 000 руб.
-
-
-%section
-  .title
-    Наши результаты
-  .wrapper
-    .results
-      .result
-        .screen.kris
-        .about
-          Вывели в топ Youtube ролик дизайнера одежды ChrisBerY по запросу
-          %span.query
-            дизайнер одежды
-      .result
-        .screen.tolk-youtube
-        .about
-          Вывели в топ Youtube видеоролик инфобизнесмена Алексея Толкачева
-          по запросу
-          %span.query
-            составить план
-      .result
-        .screen.tolk-google
-        .about
-          Вывели видеоролик инфобизнесмена Алексея Толкачева в топ выдачи Google по запросу
-          %span.query
-            составить план
-      .result
-        .screen.marant
-        .about
-          Вывели видеоролик интернет магазина обуви marant-isabel.ru по запросу
-          %span.query
-            как отличить оригинальные Isabel Marant от подделки
-
-
-%section
-  .title
-    Наши работы
-  .wrapper
-    .videos
-      .video
-        .about
-          Сняли презентационный видеоролик о дизайнере одежды Кристине Бережневой.
-
-        .video-block
-          .video
-            %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/TP8FMyQXRWc', frameborder: 0}
-
-
-      .video
-        .about
-          Сняли обзорный видеоролик "Как отличить оригинальный Isabel Marant" от подделки.
-
-        .video-block
-          .video
-            %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/I0f_CfKTmCw', frameborder: 0}
-
-
-      .video
-        .about
-          Сняли видеобращение инфобизнемена Алексея Толкачева с советами как составить план.
-
-
-        .video-block
-          .video
-            %iframe{width: 640, height: 360, src: 'http://www.youtube.com/embed/Ee8E6zsZCII', frameborder: 0}
-
-%section.big-orange-block
-  .wrapper
-
-    .overlay#bottom-overlay
-      Спасибо за заявку. Мы свяжемся с вами как можно скорее.
-
-    %h1
-      Оставьте заявку и получите бесплатную консультацию и рассчет стоимости
-      ролика его продвижения в Youtube.
-
-    %form.form#bottom-form
-      %input{type: :text, placeholder: 'Ваше имя'}
-      %input{type: :text, placeholder: 'Ваш телефон'}
-      %button#bottom-order-button
-        Оставить заявку
-
-%section.footer
-  %pre
-    ООО «ЛиТом»
-    Юридический адрес:  125466 г.Москва ул.Родионовская  д.12 корп.1
-    Фактический адрес: г.Москва, ул. Степана Супруна,  д.12, корп. 1
-    Тел  495-643-31-27
-    ИНН   7733833126 / КПП  773301001
-    р/с  40702810500030005372 в ОАО АКБ «Авангард»  г.Москва
-    БИК 044525201 к/с  30101810000000000201
-    ОГРН  1137746155777
-    ОКПО  17202802
-    ОКАТО  45283555000
-    ОКВЭД  93.04, 51.1, 51.3, 51.4
-    Генеральный директор  – Черных Лилия Федоровна
-
-
+    %button#hide-thank-you
+      Я буду ждать!

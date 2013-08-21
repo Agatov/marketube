@@ -1,417 +1,76 @@
 body
-  border-top: 15px solid #fdb255
+  margin: 0px
+  padding: 0px
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
-
-.wrapper
-  width: 1100px
-  margin: 0px auto
-
-.block
-  height: 100px
-  padding: 25px 0
-
-.left
-  float: left
-  width: 750px
-  height: 100px
-  background: $white_color
-  font-weight: 400
-  font-size: 32px
-
-  small
-    font-size: 18px
-
-.right
-  float: right
-  width: 350px
-  height: 100px
-  font-size: 24px
-  text-align: right
+  background: #f6fafa
 
 
-#main
-  height: 400px
-  .video
-    width: 700px
-    height: 360px
-    line-height: 400px
-    font-size: 16px
-
-
-  .order-form
-    position: relative
-    width: 300px
-    height: 310px
-    padding: 25px
-    margin: 0px auto
-    background: #fcfcfc
-    border: 1px solid #fdb255
-    line-height: 24px
-    color: #000
-
-    .overlay
-      display: none
-      position: absolute
-      top: 25px
-      left: 25px
-      width: 300px
-      height: 310px
-      background: #fdb255
-      color: #fff
-      font-size: 48px
-      text-align: center
-      line-height: 300px
-
-    .content
-      width: 300px
-      font-size: 16px
-      text-align: center
-      margin-bottom: 25px
-
-    form
-
-      input
-        width: 285px
-        height: 32px
-        font-size: 16px
-        margin: 10px 0
-        border: 1px solid #eee
-        box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.05)
-        padding-left: 15px
-        border-radius: 3px
-
-
-      .submit
-        margin: 10px 0
-        width: 300px
-        height: 40px
-        line-height: 40px
-        text-align: center
-        font-size: 16px
-        color: #fff
-        background: #fdb255
-        border-radius: 3px
-        cursor: pointer
-        -webkit-transition: background 0.2s
-        &:hover
-          background: #f46b49
-
-
-
-
-section
-  border-top: 1px solid #eee
-  margin-top: 50px
+.white-strip
+  width: 100%
   background: #fff
 
-  .title
-    font-size: 32px
-    margin: 25px 0
-    text-align: center
-    color: #363f48
+.wrapper
+  width: 1000px
+  margin: 0px auto
+
+  &.padding1
+    padding: 25px 0
+
+  &.padding2
+    padding: 50px 0
+
+  &.padding3
+    padding: 75px 0
+
+  &.padding4
+    padding: 100px 0
+
+  &.padding5
+    padding: 125px 0
+
+  &.padding6
+    padding: 150px 0
 
 
-    .pains
-      margin: 25px 0
-      &:after
-        clear: both
-        content: "."
-        display: block
-        height: 0
-        clear: both
-        visibility: hidden
-
-
-      .pain
-        font-size: 18px
-        float: left
-        width: 500px
-        margin-right: 20px
-        margin-bottom: 40px
-        text-align: left
-        border: 1px solid #eee
-        border-left: 3px solid #7bc674
-        border-bottom: 1px solid #ddd
-        border-top: none
-        background: #fcfcfc
-        padding-left: 10px
-
-        .title
-          width: 500px
-          height: 20px
-          line-height: 20px
-          margin-top: 10px
-          margin-bottom: 10px
-          font-size: 18px
-          font-weight: bold
-          text-align: left
-          color: #000
-
-        .content
-          width: 500px
-          height: 20px
-          font-size: 16px
-          margin-bottom: 10px
-
-
-  .opinions
-    .opinion
-      width: 1100px
-      height: 360px
-      margin-bottom: 25px
-      .whois
-        float: left
-        width: 400px
-        height: 360px
-        //padding: 100px 0
-        text-align: left
-        font-size: 18px
-        color: #000
-
-        .name
-          font-size: 28px
-
-        .position
-          margin: 15px 0
-          width: 300px
-          font-size: 14px
-          line-height: 1.3
-          color: #333
-
-
-      .video-block
-        float: right
-        width: 700px
-        height: 360px
-
-        .video
-          width: 640px
-          height: 360px
-          margin: 0 auto
-
-
-
-
-  .problems
-    margin: 25px 0
-    &:after
-      clear: both
-      content: "."
-      display: block
-      height: 0
-      clear: both
-      visibility: hidden
-
-    .problem
-      font-size: 18px
-      float: left
-      width: 500px
-      margin-right: 20px
-      margin-bottom: 40px
-      text-align: left
-      border: 1px solid #eee
-      border-left: 3px solid red
-      border-bottom: 1px solid #ddd
-      background: #fcfcfc
-      border-top: none
-
-      padding-left: 20px
-
-      .title
-        width: 500px
-        height: 20px
-        line-height: 20px
-        margin-top: 10px
-        margin-bottom: 10px
-        font-size: 18px
-        font-weight: bold
-        text-align: left
-
-      .content
-        width: 500px
-        height: 40px
-        font-size: 16px
-        margin-bottom: 10px
-        line-height: 1.3
-
-
-
-
-  .results
-    margin: 25px 0
-    &:after
-      clear: both
-      content: "."
-      display: block
-      height: 0
-      clear: both
-      visibility: hidden
-    .result
-      height: 320px
-      margin-bottom: 40px
-      &:nth-child(2n)
-        .screen
-          float: right
-        .about
-          float: left
-          padding-left: 40px
-
-      .screen
-        float: left
-        width: 540px
-        height: 320px
-        background-size: cover
-
-        &.kris
-          background: url('/assets/kris.png') no-repeat
-          background-size: cover
-        &.tolk-google
-          background: url('/assets/tolk_google.png') no-repeat
-          background-size: cover
-        &.tolk-youtube
-          background: url('/assets/tolk_youtube.png') no-repeat
-          background-size: cover
-        &.marant
-          background: url('/assets/marant.png') no-repeat
-          background-size: cover
-
-      .about
-        float: right
-        width: 400px
-        padding-top: 80px
-        line-height: 1.6
-        text-align: left
-
-        .query
-          background: #fdb255
-          color: #fff
-          padding: 2px 10px
-          font-weight: bold
-
-
-  .services
-    margin: 25px 0
-    &:after
-      clear: both
-      content: "."
-      display: block
-      height: 0
-      clear: both
-      visibility: hidden
-
-    .service
-      float: left
-      width: 510px
-      height: 180px
-      padding: 30px 0
-      margin-right: 25px
-      margin-bottom: 20px
-      background: #fafafa
-      padding-left: 20px
-      border: 1px solid #eee
-      border-bottom: 1px solid #ddd
-      //text-align: center
-
-
-      &:nth-child(2n)
-        margin-right: 0px
-
-
-      .name
-        font-size: 22px
-        font-weight: bold
-
-      .about
-        font-size: 16px
-        font-weight: 400
-        line-height: 1.5
-        margin: 25px 0
-
-      .price
-        font-size: 32px
-        font-weight: bold
-        color: #fdb255
-
-
-  .videos
-    .video
-      width: 1100px
-      height: 360px
-      margin-bottom: 25px
-      .about
-        float: left
-        width: 400px
-        height: 210px
-        padding-top: 150px
-        text-align: left
-        font-size: 18px
-        color: #000
-
-
-      .video-block
-        float: right
-        width: 700px
-        height: 360px
-
-        .video
-          width: 640px
-          height: 360px
-          margin: 0 auto
-
-
-.big-orange-block
-  position: relative
-  font-family: 'helvetica neue'
-  background: #fdb255
-  color: #fff
-  height: 200px
-  padding: 50px 0
+.title
+  font-size: 48px
+  line-height: 1.5
+  color: #000
   text-align: center
-  border-top: none
-
-  .overlay
-    display: none
-    position: absolute
-    width: 1200px
-    height: 200px
-    text-align: center
-    font-size: 48px
-    background: #fdb255
+  margin-top: 0px
 
 
+  .light
+    color: #ff5d4f
 
-  h1
-    font-size: 36px
-    line-height: 1.3
-    margin-bottom: 50px
-    color: #fff
-
-  .form
-
-    input
-      width: 285px
-      height: 32px
-      font-size: 16px
-      margin: 10px 0
-      border: 1px solid #eee
-      box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.05)
-      padding-left: 15px
-      border-radius: 3px
-      margin-right: 25px
-
-    button
-      width: 285px
-      height: 36px
-      font-size: 16px
-      background: #f46b49
-      border-radius: 3px
-      color: #fff
-      border: none
-      cursor: pointer
-
-.footer
+.price
   text-align: center
-  color: #666
-  font-size: 14px
-  border-top: none
-  padding-bottom: 25px
+  font-size: 72px
+  color: #ff5d4f
+
+
+.phone
+  text-align: center
+  font-size: 48px
+  color: #000
+
+  .small
+    margin-top: 25px
+    font-size: 24px
+
+
+.order-button
+  width: 220px
+  height: 50px
+  line-height: 50px
+  text-align: center
+  color: #ffffff
+  letter-spacing: 1px
+  font-size: 16px
+  border-radius: 5px
+  cursor: pointer
+  margin: 50px auto
+  background: #ff5d4f
+  -webkit-transition: all 0.2s
+  &:hover
+    background: #77d689
