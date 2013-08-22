@@ -2,7 +2,7 @@ $ ->
   $(document).bind 'click', ->
     hideFormErrors()
 
-  $('.order-button, .benefit').bind 'click', ->
+  $('.order-button').bind 'click', ->
 
     $('.modal-overlay').unbind 'click'
     $('.modal-overlay').bind 'click', ->
