@@ -1,8 +1,14 @@
+@font-face
+  font-family: 'ProximaNovaBold'
+  src: url('/assets/ProximaNovaCond-Bold.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
 body
   margin: 0px
   padding: 0px
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
-  background: #fff
+  background: #2a2a2c
 
 
 .white-strip
@@ -33,11 +39,12 @@ body
 
 
 .title
-  font-size: 48px
+  font-size: 64px
   line-height: 1.5
-  color: #000
+  color: #fff
   text-align: center
   margin-top: 0px
+  font-family: ProximaNovaBold
 
 
   .light
@@ -70,7 +77,46 @@ body
   border-radius: 5px
   cursor: pointer
   margin: 50px auto
-  background: #cc181e
+  background: #26bbf3
   -webkit-transition: all 0.2s
   &:hover
     background: #2793e6
+
+
+.form-body
+  padding: 50px
+
+
+
+  input
+    width: 254px
+    height: 30px
+    border: 1px solid #bbb
+    font-size: 16px
+    padding: 5px 15px
+    margin-right: 25px
+    border-radius: 3px
+
+  button
+    width: 200px
+    height: 42px
+    border: none
+    font-size: 16px
+    margin-right: 25px
+    border-radius: 3px
+    text-align: center
+    cursor: pointer
+    background: #cc181e
+    -webkit-transition: all 0.2s
+    color: #fff
+    &:hover
+      background: #2793e6
+
+
+.form-success
+  display: none
+  padding: 50px
+  text-align: center
+  font-size: 48px
+  color: #cc181e
+  font-family: ProximaNovaBold

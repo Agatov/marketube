@@ -1,68 +1,20 @@
 .wrapper.padding1
   .title
-    Продвижение видеороликов в
-    %span.light YouTube.
+    Создание продающих видеороликов для страниц захвата.
 
+.wrapper.padding1
+  .video-block
+    %iframe{src: '//www.youtube.com/embed/hVwUUgdF2-k?rel=0&enablejsapi=1',
+            width: 960,
+            height: 540, frameborder: 0}
 
-.wrapper
-  .benefits
-    .benefit
-      Настройка видеообъявлений:
-      %br
-
-      %span.light inSearch
-      %span.light inVideo
-      %span.light inSlate
-    .benefit
-      Вывод видео в топ Youtube и Google по вашим ключевым словам.
-
-
-
-
--#.wrapper.padding1
-  .benefits-header
-
-  .benefits
-    .benefit
-      Вы становитесь владельцем ООО всего за 1 час
-    .benefit
-      100% гарантия чистоты фирмы
-    .benefit
-      Большой опыт. Более 200 проданных компаний
-    .benefit
-      Консультация и помощь при подборе ООО
-
-
-.wrapper
-  .phone
-    8 (495) 792 89 59
-    .small
-      Работаем по всей России и СНГ.
-
-
-.wrapper
-  .order-button
-    Заказать консультацию
-
-
-
-.modal-overlay
-.modal-dialog
-  .header
-    Заказать консультацию
-  .body
-    %form{action: '#'}
+.white-strip
+  .wrapper
+    .form-body{action: '#'}
       %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
       %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
       %button#send-order
         Заказать консультацию
 
-.modal-thank-you
-  .header
-    Спасибо!
-  .body
-    Мы свяжемся с вами уже очень скоро.
-
-
-    %button#hide-thank-you
-      Я буду ждать!
+    .form-success
+      Спасибо! Мы свяжемся с вами очень скоро.
