@@ -3,9 +3,11 @@
   %head
     = stylesheet_link_tag    'application', :media => 'all'
     = csrf_meta_tags
+    %script{src: 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'}
     = javascript_include_tag 'application'
     %title
       Создание продающих видеороликов для страниц захвата.
   %body
     = yield
     = render partial: 'layouts/metrika'
+    = render partial: 'application/video'

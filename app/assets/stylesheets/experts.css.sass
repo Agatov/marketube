@@ -1,0 +1,42 @@
+.experts
+  margin-top: 60px
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+  .expert
+    width: 466px
+    float: left
+    margin-right: 28px
+    text-align: center
+
+    &.last
+      margin-right: 0px
+
+    .expert-video
+      width: 466px
+      height: 307px
+      cursor: pointer
+
+      &.guberniev
+        background: url('/assets/expert_guberniev.png') no-repeat
+
+      &.dashkiev
+        background: url('/assets/expert_dashkiev.png') no-repeat
+
+    .name
+      margin-top: 25px
+      font-size: 26px
+      color: #2ea2dc
+      font-weight: 200
+
+    .about
+      margin-top: 25px
+      font-size: 18px
+      color: #3a4e5c
+      line-height: 1.5
+      font-weight: 200

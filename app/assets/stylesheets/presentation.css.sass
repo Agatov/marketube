@@ -1,0 +1,162 @@
+.presentation
+
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+  .presentation-icons
+    float: left
+    position: relative
+    width: 225px
+    height: 200px
+    margin-left: 60px
+
+
+    .big-icon
+      width: 60px
+      height: 60px
+      position: absolute
+      top: 70px
+      left: 80px
+      background: url('/assets/slides/inactive/icon_videotape.png') no-repeat
+
+
+    .icon
+      width: 40px
+      height: 40px
+      cursor: pointer
+
+      &.camera
+        position: absolute
+        top: 0px
+        left: 45px
+        background: url('/assets/slides/inactive/icon_camera.png') no-repeat
+
+        &:hover
+          background: url('/assets/slides/active/icon_camera.png') no-repeat
+
+        &.active
+          background: url('/assets/slides/active/icon_camera.png') no-repeat
+
+      &.file
+        position: absolute
+        top: 0px
+        right: 45px
+        background: url('/assets/slides/inactive/icon_file.png') no-repeat
+
+        &:hover
+          background: url('/assets/slides/active/icon_file.png') no-repeat
+
+        &.active
+          background: url('/assets/slides/active/icon_file.png') no-repeat
+
+      &.clock
+        position: absolute
+        top: 80px
+        right: 0px
+        background: url('/assets/slides/inactive/icon_clock.png') no-repeat
+
+        &:hover
+          background: url('/assets/slides/active/icon_clock.png') no-repeat
+
+        &.active
+          background: url('/assets/slides/active/icon_clock.png') no-repeat
+
+      &.calc
+        position: absolute
+        top: 160px
+        right: 45px
+        background: url('/assets/slides/inactive/icon_calc.png') no-repeat
+
+        &:hover
+          background: url('/assets/slides/active/icon_calc.png') no-repeat
+
+        &.active
+          background: url('/assets/slides/active/icon_calc.png') no-repeat
+
+      &.ok
+        position: absolute
+        top: 160px
+        left: 45px
+        background: url('/assets/slides/inactive/icon_ok.png') no-repeat
+
+        &:hover
+          background: url('/assets/slides/active/icon_ok.png') no-repeat
+
+        &.active
+          background: url('/assets/slides/active/icon_ok.png') no-repeat
+
+
+
+      &.video
+        position: absolute
+        top: 80px
+        left: 0px
+        background: url('/assets/slides/inactive/icon_video.png') no-repeat
+
+        &:hover
+          background: url('/assets/slides/active/icon_video.png') no-repeat
+
+        &.active
+          background: url('/assets/slides/active/icon_video.png') no-repeat
+
+
+  .presentation-slides
+    width: 590px
+    float: left
+    margin-left: 80px
+    padding-top: 30px
+
+    .slide
+      width: 590px
+      line-height: 1.5
+      position: relative
+      padding-right: 90px
+
+      &.first-slide
+        display: none
+
+      &.second-slide
+        display: none
+
+      &.third-slide
+        display: none
+
+      &.fourth-slide
+        display: none
+
+      &.fifth-slide
+        display: none
+
+      &.sixth-slide
+        display: none
+
+      .next-slide-link
+        margin-top: 30px
+        font-size: 18px
+        font-weight: 200px
+        color: #2ea2dc
+        cursor: pointer
+
+        &:hover
+          color: #777
+
+      h2
+        margin-bottom: 30px
+        font-size: 24px
+
+
+      .next-slide
+        width: 55px
+        height: 150px
+        background: url('/assets/next_slide.png') no-repeat
+        cursor: pointer
+        position: absolute
+        top: 0px
+        right: 0px
+
+

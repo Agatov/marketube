@@ -1,20 +1,355 @@
-.wrapper.padding1
-  .title
-    Создание продающих видеороликов для страниц захвата.
-
-.wrapper.padding1
-  .video-block
-    %iframe{src: '//www.youtube.com/embed/hVwUUgdF2-k?rel=0&enablejsapi=1',
-            width: 960,
-            height: 540, frameborder: 0}
-
-.white-strip
+%section.section-header
   .wrapper
-    .form-body{action: '#'}
-      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
-      %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
-      %button#send-order
-        Получить консультацию
+    .row
+      .span4
+        .logo
+          Marketube.ru
 
-    .form-success
-      Спасибо! Мы свяжемся с вами очень скоро.
+      .span5
+        .address
+          г. Москва
+          %br
+          Казарменный переулок, дом 3, офис 11
+
+
+      .span3
+        .phone
+          8 495 792 89 59
+
+
+%section.section-intro
+  .wrapper
+    .section-title
+      %h1
+        Создание продающих видеороликов
+        .small
+          для сайтов и старинц захвата
+
+    .mackbook
+      .screen#intro-video
+
+
+%section.section-offer
+  .wrapper
+    .section-title
+      %h3
+        Отправьте заявку прямо сейчас и получите бесплатную консультацию
+        .small
+          по созданию продающего видеоролика для вашего бизнеса!
+
+
+%section.form
+  .wrapper
+    %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш номер телефона'}
+    %button.send-order
+      Отправить заявку
+
+%section.whom
+  .wrapper
+    .section-title
+      %h2
+        Кому нужен продающий видеоролик?
+
+    .blocks
+      .block
+        .icon.goods
+
+        .name
+          Товары
+
+        .text
+          Продемострируйте в действии ваш товар,
+          объясните почему стоит купить именно
+          ваш продукт. Покажите и объясните почему
+          стоит купить именно у вас!
+
+      .block
+        .icon.services
+
+        .name
+          Услуги
+
+        .text
+          Так как услуга не весомый продукт
+          покажите как будет реализоваться
+          ваша услуга. Какой будет результат от
+          работы с вами. Кто будет ее выполнять
+
+      .block.last
+        .icon.production
+
+        .name
+          Производство
+
+        .text
+          Для производства, очень важно показать
+          через какие этапы проходит производство
+          вашего товара, какие технологии
+          применяются и чем ваше производство
+          отличается от конкурентов.
+
+
+    .line
+
+
+%section.why
+  .wrapper
+    .section-title
+      %h2
+        Почему видеоролики влияют на продажи?
+
+      %h3{style: 'color: #2ea2dc; margin-top: 25px;'}
+        Как мозг воспринимает информацию?
+
+
+    .mozg
+      .note.first
+        Звук
+        %strong 15%
+        вопсриятия
+
+      .note.second
+        Тексты
+        %strong 20%
+
+      .note.third
+        Визуально (видео, картинки)
+        %strong 85%
+
+
+    .section-title
+      %h4
+        Благодаря видео, вы быстрее и лучше сможете донести вашу ценность для клиента.
+
+      %h3.dark{style: 'margin-top: 25px;'}
+        Видео использует все каналы восприятия!
+
+    .line
+
+%section.section-presentation
+  .wrapper
+    .presentation
+      .presentation-icons
+        .icon.camera{rel: 'sixth-slide'}
+        .icon.file{rel: 'first-slide'}
+        .icon.clock{rel: 'second-slide'}
+        .icon.calc{rel: 'third-slide'}
+        .icon.ok{rel: 'fourth-slide'}
+        .icon.video{rel: 'fifth-slide'}
+        .big-icon.videotape
+
+      .presentation-slides
+        .slide.enter-slide
+          .next-slide
+          %h2
+            Почему у нас заказывают продающие видеоролики?
+
+
+          .next-slide-link
+            Показать первый слайд
+
+        .slide.first-slide
+          .next-slide
+          %h2 Увеличение количества продаж
+          %p
+            По статистике, лендинг с видео имеет более высокую конверсию.
+
+
+        .slide.second-slide
+          .next-slide
+          %h2 Мы снимаем видео уже более двух лет
+          %p
+            А опыт, как говорится, не пропьешь ;)
+
+        .slide.third-slide
+          .next-slide
+          %h2 Рассчет стоимость в день обращения
+          %p
+            После разговора по телефону,
+            мы бесплатно напишем вам прототип сценария и расчитаем точную стоимость видеоролика.
+        .slide.fourth-slide
+          .next-slide
+          %h2 100% гарантия качества
+          %p
+            Если готовый видеоролик вас чем-то не устроит, мы вернем все ваши деньги.
+        .slide.fifth-slide
+          .next-slide
+          %h2 Снято 56 видеороликов
+          %p
+            Такой опыт позволяет нам делать по-настоящему полезные видео ролики, для любой целевой аудитории.
+        .slide.sixth-slide
+          .next-slide
+          %h2 Создание видеоролика от двух дней.
+          %p
+            Мы ценим ваше время и стараемся ускорить видеопроцесс, не нарушая качество видеопроизводства.
+
+
+
+
+
+%section.section-offer
+  .wrapper
+    .section-title
+      %h3
+        Как выглядят продающие видеоролики в вашей сфере бизнеса?
+        .small
+          Оставьте ваши контакты, чтобы менеджер мог с вами связаться
+          %br
+          и выслать вам видеоролики по вашей сфере бизнеса.
+
+
+%section.form
+  .wrapper
+    %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш номер телефона'}
+    %button.send-order
+      Отправить заявку
+
+
+%section.section-experts
+  .wrapper
+    .section-title
+      %h2
+        Мнение экспертов
+
+    .experts
+      .expert
+        .expert-video.guberniev
+        .name
+          Дмитрий Губерниев
+        .about
+          Телеведущий и комментатор на телеканале
+          РОССИЯ 2
+
+      .expert.last
+        .expert-video.dashkiev
+        .name
+          Михаил Дашкиев
+        .about
+          Самый оплачиваемы бизнес тренер в СНГ.
+          %br
+          Зарабатывает 6 000 000 рублей в месяц.
+
+    .line
+
+%section.why2
+  .wrapper.why2
+    .section-title
+      %h2
+        Почему видеоролики влияют на продажи?
+        .blue
+          По версии авторитетного сайта Comscore.com
+
+    .reasons
+      .reason.reason1
+        90% онлайн-покупателей крупных ритейл-площадок говорят, что видео о продукте помогло
+        идаже повлияло на решение о покупке.
+
+      .reason.reason2
+        Видео, размещенное на сайте увеличивает время нахождения на сайте пользователя в 2 раза.
+
+      .reason.reason3
+        26% людей ищут больше информации о продукте, который увидели в видео.
+
+
+
+%section.section-action
+  .wrapper
+    .section-title
+      %h1
+        Акция! Скидка 50%
+        .small
+          на снятие видео приветствия для вашего сайта с 2D графикой.
+
+    .action
+      .ipad
+      .action-text
+        %h3
+          Оставьте ваши контакты и получите
+          %br
+          скидку на видео приветствие
+
+        .price
+          %h3
+            %span.old 14 000р.
+            7 000р.
+
+        .timer
+          .figure
+            .text#hours-first 0
+          .figure
+            .text#hours-last 7
+
+          .colon
+            .text :
+
+          .figure
+            .text#minutes-first 0
+          .figure
+            .text#minutes-last 7
+
+          .colon
+            .text :
+
+          .figure
+            .text#seconds-first 0
+          .figure
+            .text#seconds-last 7
+
+%section.form
+  .wrapper
+    %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш номер телефона'}
+    %button.send-order
+      Отправить заявку
+
+
+%section.before-map-section
+  .wrapper
+    .section-title
+      %h2
+        Как нас найти?
+        .small
+          Москва, Казарменный переулок, дом 3, офис 11.
+
+
+#map{style: 'width: 100%; height: 400px;'}
+
+
+%section.section-header
+  .wrapper
+    .row
+      .span4
+        .logo
+          Marketube.ru
+
+      .span5
+        .address
+          г. Москва
+          %br
+          Казарменный переулок, дом 3, офис 11
+
+
+      .span3
+        .phone
+          8 495 792 89 59
+
+
+.modal-overlay
+
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!
+
+
+
+
+
+
