@@ -17,7 +17,7 @@ $ ->
       phone.css 'border', '1px solid red'
       return false
 
-    $.post '/orders', {'order[username]': $('input[name=username]').val(), 'order[phone]': $('input[name=phone]').val()}, (data) =>
+    $.post '/orders', {'order[username]': name.val(), 'order[phone]': phone.val()}, (data) =>
 
     $('.form-body').hide()
     $('.form-success').show()
