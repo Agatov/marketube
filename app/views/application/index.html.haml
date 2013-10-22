@@ -134,60 +134,70 @@
 
 %section.section-presentation
   .wrapper
-    .presentation
-      .presentation-icons
-        .icon.camera{rel: 'sixth-slide'}
-        .icon.file{rel: 'first-slide'}
-        .icon.clock{rel: 'second-slide'}
-        .icon.calc{rel: 'third-slide'}
-        .icon.ok{rel: 'fourth-slide'}
-        .icon.video{rel: 'fifth-slide'}
-        .big-icon.videotape
-
-      .presentation-slides
-        .slide.enter-slide
-          .next-slide
-          %h2
-            Почему у нас заказывают продающие видеоролики?
+    .section-title
+      %h2
+        Почему у нас заказывают продающие видеоролики?
 
 
-          .next-slide-link
-            Показать первый слайд
+    .triggers
+      .trigger
+        .icon.one
+        .content
+          .name
+            Увеличение количества продаж
+          .about
+            По статистике, лендинг с видео имеет более высокую
+            конверсию, чем без него
 
-        .slide.first-slide
-          .next-slide
-          %h2 Увеличение количества продаж
-          %p
-            По статистике, лендинг с видео имеет более высокую конверсию.
+
+      .trigger
+        .icon.two
+        .content
+          .name
+            Мы снимаем видео уже более двух лет
+          .about
+            И за это время получили огромный опыт в съемках
+            продающих видеороликов.
+
+      .trigger
+        .icon.three
+        .content
+          .name
+            Рассчет стоимость в день обращения
+          .about
+            После разговора по телефону, мы бесплатно напишем вам
+            прототип сценария и расчитаем точную стоимость видео.
 
 
-        .slide.second-slide
-          .next-slide
-          %h2 Мы снимаем видео уже более двух лет
-          %p
-            А опыт, как говорится, не пропьешь ;)
+      .trigger
+        .icon.four
+        .content
+          .name
+            100% гарантия качества
+          .about
+            Если готовый видеоролик вас чем-то не устроит, мы
+            без лишних вопросов вернем все ваши деньги.
 
-        .slide.third-slide
-          .next-slide
-          %h2 Рассчет стоимость в день обращения
-          %p
-            После разговора по телефону,
-            мы бесплатно напишем вам прототип сценария и расчитаем точную стоимость видеоролика.
-        .slide.fourth-slide
-          .next-slide
-          %h2 100% гарантия качества
-          %p
-            Если готовый видеоролик вас чем-то не устроит, мы вернем все ваши деньги.
-        .slide.fifth-slide
-          .next-slide
-          %h2 Снято 56 видеороликов
-          %p
-            Такой опыт позволяет нам делать по-настоящему полезные видео ролики, для любой целевой аудитории.
-        .slide.sixth-slide
-          .next-slide
-          %h2 Создание видеоролика от двух дней.
-          %p
-            Мы ценим ваше время и стараемся ускорить видеопроцесс, не нарушая качество видеопроизводства.
+
+      .trigger
+        .icon.five
+        .content
+          .name
+            Снято 56 видеороликов
+          .about
+            Такой опыт позволяет нам делать по-настоящему
+            полезные видео ролики, для любой целевой аудитории.
+
+
+      .trigger
+        .icon.six
+        .content
+          .name
+            Создание видеоролика от двух дней
+          .about
+            По статистике, лендинг с видео имеет более высокую
+            конверсию, чем без него
+
 
 
 
@@ -262,6 +272,12 @@
 
 
 
+    .line
+
+= render partial: 'application/portfolio'
+
+
+
 %section.section-action
   .wrapper
     .section-title
@@ -316,6 +332,26 @@
     .very-small
       Мы гарантируем конфиденциальность Ваших данных.
       Ваши контакты не будут передаваться третьим лицам
+
+
+= render partial: 'application/team'
+
+
+%section.section-offer
+  .wrapper
+    .section-title
+      %h3
+        Узнайте как увеличить продажи с помощью видеороликов!
+        .small
+          Оставьте ваши контакты и получите 5 уроков по встраиванию видеомаркетинга в ваш бизнес.
+
+
+%section.form
+  .wrapper
+    %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш номер телефона'}
+    %button.send-order
+      Отправить заявку
 
 
 %section.before-map-section

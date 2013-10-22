@@ -1,0 +1,60 @@
+.triggers
+  margin-top: 50px
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+  .trigger
+    float: left
+    width: 460px
+    margin-right: 40px
+    height: 90px
+    margin-bottom: 30px
+    position: relative
+
+    &:nth-child(2n)
+      margin-right: 0px
+
+    .icon
+      width: 50px
+      height: 50px
+      position: absolute
+      top: 0px
+      left: 0px
+
+      &.one
+        background: url('/assets/icon_1.jpg') no-repeat
+
+      &.two
+        background: url('/assets/icon_2.jpg') no-repeat
+
+      &.three
+        background: url('/assets/icon_3.jpg') no-repeat
+
+      &.four
+        background: url('/assets/icon_4.jpg') no-repeat
+
+      &.five
+        background: url('/assets/icon_5.jpg') no-repeat
+
+      &.six
+        background: url('/assets/icon_6.jpg') no-repeat
+
+    .content
+      margin-left: 60px
+      padding-top: 10px
+
+      .name
+        font-weight: 200
+        font-size: 18px
+        color: #2ea2dc
+
+      .about
+        padding-top: 20px
+        font-size: 14px
+        line-height: 1.3
+        color: #3a4e5c
